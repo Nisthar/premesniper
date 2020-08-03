@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+::selection {
+    background-color: #52cdf4;
+    color: #fff;
+}
+
+.announcement a:link, .announcement, a:visited {
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.announcement {
+    background-color: #52cfd4;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.header {
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-bottom: 1.5px solid #eee;
+    padding-bottom: 12px;
+}
+
+.header h1 {
+    font-weight: 300;
+}
+
+input {
+    border: none;
+    border-bottom: 1.5px solid #ddd;
+    padding-right: 50px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    transition: 0.5s all;
+    color: #999;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+
+input:focus {
+    outline: none;
+    color: #1b1b1a;
+    border-bottom: 1.5px solid #1b1b1a;
+}
+
+#type {
+    font-size: 18px;
+}
+
+#keywords {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.title span {
+    margin-left: 10px;
+}
+
+.container {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.title-payment {
+    margin-top: 20px;
+}
+
+select {
+    border: none;
+    font-size: 16px;
+    color: #999;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #ddd;
+    padding-right: 110px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: "nunito", sans-serif;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select:focus {
+    outline: none;
+}
+
+#year {
+    padding-right: 40px;
+}
+
+.menu {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.menu ul li:hover {
+    cursor: pointer;
+}
+
+.menu ul li .current {
+    color: #52cfd4;
+    border-bottom: 2px solid #52cdf4;
+    padding-bottom: 2px;
+}
+
+#url {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+
+.taskrunner button {
+    font-family: 'Nunito', sans-serif;
+    background-color: #52cfd4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+}
+
+.taskrunner button:focus {
+    outline: none;
+}
+
+.taskrunner button:focus {
+    outline: none;
+}
+
+.taskrunner {
+    padding-bottom: 20px;
+    margin-right: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+#open-browser {
+    background-color: rgba(82, 207, 212, 0.75);
+}
